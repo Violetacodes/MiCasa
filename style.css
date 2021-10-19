@@ -1,0 +1,311 @@
+nav {
+    font-family: 'Poppins', sans-serif;
+    background-color: #10375C;
+    display: flex;
+    justify-content: space-between;
+    }
+    .helloul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    .tt {
+    color: white;
+    }
+    .casa {
+    color:  #FF5722;
+    }
+    .casah {
+    text-decoration: underline;
+    color: #FF5722;
+    }
+    .par {
+    position: absolute;
+    color: #10375C;
+    width: 504px;
+    height: 81px;
+    left: 155px;
+    top: 319px;
+    font-size: 60px;
+    font-family: Helvetica;
+    font-weight: bold;
+    }
+    .partwo {
+    font-size: 25px;
+    position: absolute;
+    color: #10375C;
+    width: 504px;
+    height: 81px;
+    left: 155px;
+    top: 400px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 15px;
+    }
+    .parthree {
+    font-size: 15px;
+    position: absolute;
+    color: #FF5722;
+    width: 504px;
+    height: 81px;
+    left: 155px;
+    top: 480px;
+    font-family: Helvetica;
+    margin-top: 15px;
+    font-weight: bold;
+    }
+    .loco {
+    font-size: 14px;
+    }
+    .choosemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #10375C;
+    padding: 30px;
+    margin-left:100px;
+    margin-right:100px;
+    background-color: #10375C;
+    color: white;
+    flex-wrap: wrap;
+    }
+    .feat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 30px;
+    }
+    .howit  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 30px;
+    }
+    u{
+    color: #FF5722;
+    }
+    .housespan {
+    color: #10375C;
+    }
+    .parentchoose {
+    background-color: #ffede7;
+    }
+    .howitworks {
+    background-color: #ffede7;
+    }
+    .btndivs{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    flex-wrap: wrap;
+    }
+    .bluebtn {
+    padding: 15px;
+    border: 1px solid #FF5722;
+    background-color: #FF5722;
+    width: 40%;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    }
+    .orangebtn {
+    padding: 20px;
+    border: 1px solid #FF5722;
+    background-color: #FF5722;
+    width: 70%;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10px; 
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    }
+    .orange {
+    background-color: #FF5722 ;
+    color: white;
+    border-radius: 30px ;
+    } 
+    .or {
+    border-radius: 30px ;
+    }
+    .card {
+    display:inline-block;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .cities {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin-top: 100px;
+    }
+    .res {
+    font-family: 'Montserrat', sans-serif;
+    }
+    .textcity {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    top: 600px;
+    left: 80px;
+    }
+    .lagos, .london {
+    margin-top: -5%;
+    }
+    .pop {
+    color: #10375C;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin:20px;
+    }
+    @media all and (max-width:800px) {
+    .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .cities {
+    width: 110%;
+    }
+    .adapt {
+    font-size: 12px;
+    padding: 5px;
+    }
+    .oneone {
+    width: 30px;
+    }
+    h2, .howit{
+    padding: 5px;
+    }
+    .choosemenu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #10375C;
+    padding: 10px;
+    margin-left:50px;
+    margin-right:50px;
+    background-color: #10375C;
+    color: white;
+    }
+    .par {
+    position: absolute;
+    color: #10375C;
+    width: 100px;
+    height: 81px;
+    left: 80px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    }
+    .partwo {
+    font-size: 10px;
+    position: absolute;
+    color: #10375C;
+    width: 200px;
+    height: 81px;
+    left: 80px;
+    top: 250px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 20px;
+    }
+    .parthree {
+    font-size: 12px;
+    position: absolute;
+    color: #FF5722;
+    width: 200px;
+    height: 75px;
+    left: 75px;
+    top: 290px;
+    font-family: Helvetica;
+    margin-top: 10px;
+    font-weight: bold;
+    }
+    body {
+    font-size: 15px;
+    }
+    }
+    @media all and (max-width:500px) {
+    .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .cities {
+    width: 110%;
+    }
+    .adapt {
+    font-size: 12px;
+    padding: 5px;
+    }
+    .oneone {
+    width: 30px;
+    }
+    h2, .howit{
+    padding: 5px;
+    }
+    .choosemenu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #10375C;
+    padding: 10px;
+    margin-left:50px;
+    margin-right:50px;
+    background-color: #10375C;
+    color: white;
+    }
+    .par {
+    position: absolute;
+    color: #10375C;
+    width: 100px;
+    height: 81px;
+    left: 80px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    }
+    .partwo {
+    font-size: 10px;
+    position: absolute;
+    color: #10375C;
+    width: 200px;
+    height: 81px;
+    left: 80px;
+    top: 250px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 20px;
+    }
+    .parthree {
+    font-size: 12px;
+    position: absolute;
+    color: #FF5722;
+    width: 200px;
+    height: 75px;
+    left: 75px;
+    top: 290px;
+    font-family: Helvetica;
+    margin-top: 10px;
+    font-weight: bold;
+    }
+    .helloul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    }
+    .cities {
+    display: flex;
+    flex-direction: column;
+    }
+    }
